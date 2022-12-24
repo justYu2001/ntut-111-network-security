@@ -6,6 +6,8 @@ import {
 } from "react-router-dom";
 import routes from "~react-pages";
 
+import "@/index.css";
+
 const App = () => {
   return (
     <Suspense fallback={<p>Loading...</p>}>
