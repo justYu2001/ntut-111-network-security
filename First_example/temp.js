@@ -1,6 +1,3 @@
-// let PureInput = document.querySelector('#PureInput');
-// let PureButton = document.querySelector('#PureButton');
-// let PureOutcome = document.querySelector('#PureOutcome');
 let unsafe_str = ''
 
 function escapeHTML (unsafe_str) {
