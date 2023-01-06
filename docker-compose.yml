@@ -1,0 +1,22 @@
+version: '3.9'
+services:
+  first-demo:
+    build: ./First_example
+    ports:
+      - "800:80"
+  dom-xss:
+    build: ./dom-xss
+    ports:
+      - "801:80"
+  reflected-xss:
+    build: ./reflect
+    ports:
+      - "802:80"
+  stored-xss:
+    build: ./stored-xss/frontend
+    ports:
+      - "803:4173"
+  stored-xss-backend:
+    build: ./stored-xss/backend
+    ports:
+      - "3000:3000"
